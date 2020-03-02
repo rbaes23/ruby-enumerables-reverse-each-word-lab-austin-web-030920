@@ -14,7 +14,3 @@
 #   result = new_array.join(" ")
 #   p result
 # end
-
-def reverse_each_word(str)
-  str.split.map {|word| word.reverse}.join(" ")
-end
